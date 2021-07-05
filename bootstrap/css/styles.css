@@ -1,0 +1,97 @@
+/*
+Author: John Gray
+Last Revision: 04.29.14
+File Name: styles.css
+Description: Custom styles overriding bootstrap.css 
+*/
+
+/* Structure */
+
+body { 
+	padding-top: 70px;
+	background-image: url('../../images/nzroadBW.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+.container {
+	background: #fff;
+}
+
+.container .jumbotron {
+    padding: 0px;
+}
+
+article {
+	padding: 20px;
+}
+
+#login_form {
+	width: 200px;
+	padding: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+#home_user_list {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.center_btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pull-left.img-responsive {
+	margin: 0 1em 1em 0;	
+}
+
+/* Sidebar Styles */
+#sidebar a {
+	background-color: #1E1E1E;
+	color: #999;
+}
+
+#sidebar a:hover {
+	color: #ffffff;
+}
+
+#sidebar .active a {
+	background-color: #080808;
+	color: #ffffff;
+}
+	
+/* Typography	 */
+h1, h2, h3 {
+	font-family: 'Special Elite', 'Helvetica Neue', sans-serif;
+}
+
+
+header h1 {
+	font-family: 'Special Elite', 'Helvetica Neue', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	color: #080808;
+}
+
+.active {
+	text-transform: uppercase;
+}
+
+/* footer */
+footer {
+	padding: 1em 0;
+	margin: 1em 0;
+	border-top: 1px solid #080808;
+	color: #999;
+	text-align: center;
+}

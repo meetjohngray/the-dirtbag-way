@@ -1,0 +1,6 @@
+#Author: John Gray
+#Last Revision: 04.29.14
+#File Name: htaccess
+#Description: Redirects bad path names to 404.php 
+
+ErrorDocument 404 http://localhost:8888/web289/errors/404.php

@@ -1,0 +1,255 @@
+ Web289
+|____.DS_Store
+|____admin_app
+| |____.DS_Store
+| |____activities_admin.php
+| |____home_admin.php
+| |____single_activity_admin.php
+| |____single_user_admin.php
+| |____update_activities_admin.php
+| |____update_users_admin.php
+| |____users_admin.php
+|____assets
+| |____.DS_Store
+| |____codeDocumentation.pdf
+| |____database_final.sql
+| |____directoryWireframe.txt
+| |____erd.jpg
+| |____mediaSources.pdf
+| |____styleGuide.jpg
+| |____Unedited_artwork
+| | |____.DS_Store
+| | |____IMG_0909.jpg
+| | |____IMG_1408.JPG
+| | |____P3310511 - Version 2.jpg
+| | |____P3310511.jpg
+|____bootstrap
+| |____.DS_Store
+| |____css
+| | |____.DS_Store
+| | |____bootstrap.css
+| | |____bootstrap.css.map
+| | |____bootstrap.min.css
+| | |____bootstrapValidator.min.css
+| | |____styles.css
+| |____fonts
+| | |____glyphicons-halflings-regular.eot
+| | |____glyphicons-halflings-regular.svg
+| | |____glyphicons-halflings-regular.ttf
+| | |____glyphicons-halflings-regular.woff
+| |____js
+| | |____.DS_Store
+| | |____bootstrap-datepicker-master
+| | | |____.gitignore
+| | | |____.hgignore
+| | | |____.hgtags
+| | | |____.jscs.json
+| | | |____.jshintrc
+| | | |____.travis.yml
+| | | |____bower.json
+| | | |____build
+| | | | |____build.less
+| | | | |____build3.less
+| | | | |____build_standalone.less
+| | | | |____build_standalone3.less
+| | | |____CHANGELOG.md
+| | | |____composer.json
+| | | |____CONTRIBUTING.md
+| | | |____css
+| | | | |____datepicker.css
+| | | | |____datepicker3.css
+| | | |____docs
+| | | | |_____screenshots
+| | | | | |____demo_head.html
+| | | | | |____markup_component.html
+| | | | | |____markup_daterange.html
+| | | | | |____markup_inline.html
+| | | | | |____markup_input.html
+| | | | | |____option_calendarweeks.html
+| | | | | |____option_clearbtn.html
+| | | | | |____option_daysofweekdisabled.html
+| | | | | |____option_enddate.html
+| | | | | |____option_language.html
+| | | | | |____option_multidate.html
+| | | | | |____option_startdate.html
+| | | | | |____option_todaybtn.html
+| | | | | |____option_todayhighlight.html
+| | | | | |____option_weekstart.html
+| | | | | |____script
+| | | | | | |____common.css
+| | | | | | |____common.js
+| | | | | | |____debug.js
+| | | | | | |____html-imports.min.js
+| | | | | | |____screenshot.js
+| | | | |_____static
+| | | | | |____screenshots
+| | | | | | |____demo_head.png
+| | | | | | |____markup_component.png
+| | | | | | |____markup_daterange.png
+| | | | | | |____markup_inline.png
+| | | | | | |____markup_input.png
+| | | | | | |____option_calendarweeks.png
+| | | | | | |____option_clearbtn.png
+| | | | | | |____option_daysofweekdisabled.png
+| | | | | | |____option_enddate.png
+| | | | | | |____option_language.png
+| | | | | | |____option_multidate.png
+| | | | | | |____option_startdate.png
+| | | | | | |____option_todaybtn.png
+| | | | | | |____option_todayhighlight.png
+| | | | | | |____option_weekstart.png
+| | | | |____conf.py
+| | | | |____events.rst
+| | | | |____i18n.rst
+| | | | |____index.rst
+| | | | |____keyboard.rst
+| | | | |____make.bat
+| | | | |____Makefile
+| | | | |____markup.rst
+| | | | |____methods.rst
+| | | | |____options.rst
+| | | | |____REAME.md
+| | | |____Gruntfile.js
+| | | |____js
+| | | | |____bootstrap-datepicker.js
+| | | | |____locales
+| | | | | |____bootstrap-datepicker.ar.js
+| | | | | |____bootstrap-datepicker.az.js
+| | | | | |____bootstrap-datepicker.bg.js
+| | | | | |____bootstrap-datepicker.ca.js
+| | | | | |____bootstrap-datepicker.cs.js
+| | | | | |____bootstrap-datepicker.cy.js
+| | | | | |____bootstrap-datepicker.da.js
+| | | | | |____bootstrap-datepicker.de.js
+| | | | | |____bootstrap-datepicker.el.js
+| | | | | |____bootstrap-datepicker.es.js
+| | | | | |____bootstrap-datepicker.et.js
+| | | | | |____bootstrap-datepicker.fa.js
+| | | | | |____bootstrap-datepicker.fi.js
+| | | | | |____bootstrap-datepicker.fr.js
+| | | | | |____bootstrap-datepicker.gl.js
+| | | | | |____bootstrap-datepicker.he.js
+| | | | | |____bootstrap-datepicker.hr.js
+| | | | | |____bootstrap-datepicker.hu.js
+| | | | | |____bootstrap-datepicker.id.js
+| | | | | |____bootstrap-datepicker.is.js
+| | | | | |____bootstrap-datepicker.it.js
+| | | | | |____bootstrap-datepicker.ja.js
+| | | | | |____bootstrap-datepicker.ka.js
+| | | | | |____bootstrap-datepicker.kk.js
+| | | | | |____bootstrap-datepicker.kr.js
+| | | | | |____bootstrap-datepicker.lt.js
+| | | | | |____bootstrap-datepicker.lv.js
+| | | | | |____bootstrap-datepicker.mk.js
+| | | | | |____bootstrap-datepicker.ms.js
+| | | | | |____bootstrap-datepicker.nb.js
+| | | | | |____bootstrap-datepicker.nl-BE.js
+| | | | | |____bootstrap-datepicker.nl.js
+| | | | | |____bootstrap-datepicker.no.js
+| | | | | |____bootstrap-datepicker.pl.js
+| | | | | |____bootstrap-datepicker.pt-BR.js
+| | | | | |____bootstrap-datepicker.pt.js
+| | | | | |____bootstrap-datepicker.ro.js
+| | | | | |____bootstrap-datepicker.rs-latin.js
+| | | | | |____bootstrap-datepicker.rs.js
+| | | | | |____bootstrap-datepicker.ru.js
+| | | | | |____bootstrap-datepicker.sk.js
+| | | | | |____bootstrap-datepicker.sl.js
+| | | | | |____bootstrap-datepicker.sq.js
+| | | | | |____bootstrap-datepicker.sv.js
+| | | | | |____bootstrap-datepicker.sw.js
+| | | | | |____bootstrap-datepicker.th.js
+| | | | | |____bootstrap-datepicker.tr.js
+| | | | | |____bootstrap-datepicker.ua.js
+| | | | | |____bootstrap-datepicker.vi.js
+| | | | | |____bootstrap-datepicker.zh-CN.js
+| | | | | |____bootstrap-datepicker.zh-TW.js
+| | | |____less
+| | | | |____datepicker.less
+| | | | |____datepicker3.less
+| | | |____LICENSE
+| | | |____package.json
+| | | |____README.md
+| | | |____tests
+| | | | |____assets
+| | | | | |____coverage.js
+| | | | | |____jquery-1.7.1.min.js
+| | | | | |____mock.js
+| | | | | |____qunit-logging.js
+| | | | | |____qunit.css
+| | | | | |____qunit.js
+| | | | | |____utils.js
+| | | | |____README.md
+| | | | |____suites
+| | | | | |____calendar-weeks.js
+| | | | | |____component.js
+| | | | | |____data-api.js
+| | | | | |____events.js
+| | | | | |____formats.js
+| | | | | |____inline.js
+| | | | | |____keyboard_navigation
+| | | | | | |____2011.js
+| | | | | | |____2012.js
+| | | | | | |____all.js
+| | | | | |____methods.js
+| | | | | |____mouse_navigation
+| | | | | | |____2011.js
+| | | | | | |____2012.js
+| | | | | | |____all.js
+| | | | | |____noconflict.js
+| | | | | |____options.js
+| | | | |____tests.html
+| | |____bootstrap.js
+| | |____bootstrap.min.js
+| | |____bootstrapValidator.min.js
+| | |____my_scripts.js
+|____errors
+| |____.DS_Store
+| |____404.php
+| |____database_error.php
+| |____error.php
+|____htaccess
+|____images
+| |____IMG_0909.jpg
+| |____kayakers.jpg
+| |____nzroad.png
+| |____nzroad1170.png
+| |____nzroadBW.jpg
+| |____nzroadBW.png
+|____index.php
+|____model
+| |____.DS_Store
+| |____database_connection.php
+| |
+| |____log_entry_db.php
+| |____users_db.php
+|____public_app
+| |____.DS_Store
+| |____about.php
+| |____create_user_form.php
+| |____home_public.php
+| |____resources.php
+|____tree.txt
+|____users_app
+| |____.DS_Store
+| |____home_users.php
+| |____log_activity_form.php
+| |____search_entries_user.php
+| |____update_users_users.php
+| |____user_info.php
+| |____user_profile.php
+|____util
+| |____.DS_Store
+| |____captcha.php
+| |____main.php
+| |____valid_admin.php
+| |____valid_user.php
+|____view
+| |____.DS_Store
+| |____admin_nav.php
+| |____admin_sidebar.php
+| |____footer.php
+| |____header.php
+| |____public_nav.php
+| |____users_nav.php
+| |____users_sidebar.php
